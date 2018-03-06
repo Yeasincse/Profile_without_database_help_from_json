@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <button style="alignment: center; font-size: large" type = "submit" class = "btn btn-success"><a href="{{  profile }}">Load me for another profile information</a></button>
+    <div class = "container-fluid">
+
+    <div class = "row">
+        <div class = "col-sm-12 col-md-6">
+            <div class = "panel panel-default">
+                <div class = "panel-body">
+                    <h3>User Profile Card.</h3>
+                                <div class = "col-md-8">
+                                    <p> Person Picture : <img src="{{ data.results.0.picture.large}}"></p><br>
+                                    <p> gender : {{ data.results.0.gender }}</p><br>
+                                    <p> FirstName : {{ data.results.0.name.first }}</p><br>
+                                    <p> LastName : {{ data.results.0.name.last }}</p><br>
+                                    <p>Location : </p>
+                                    <p>&emsp;&emsp;Street : {{ data.results.0.location.street }}</p>
+                                    <p>&emsp;&emsp;City : {{ data.results.0.location.city }}</p>
+                                    <p>&emsp;&emsp;State : {{ data.results.0.location.state }}</p>
+                                    <p>&emsp;&emsp;Postcode : {{ data.results.0.location.postcode }}</p>
+                                    <p> Email : {{ data.results.0.email }}</p><br>
+                                    <p> Date of Birth : {{ data.results.0.dob }}</p><br>
+                                    <p> Phone : {{ data.results.0.phone }}</p><br>
+                                    <p> Cell Information : {{ data.results.0.cell }}</p><br>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}

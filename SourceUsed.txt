@@ -1,0 +1,6 @@
+Hello !
+Here is Yeasin Rahaman.
+I am so much happy by completing this simple project.
+Here are the documentation and video url those might help me to do this project.
+1.For basic django programming I have seen django documentation from this url https://docs.djangoproject.com/en/2.0/
+2.For json data parsing I have seen this video https://www.youtube.com/watch?v=g4wdm488mkE
