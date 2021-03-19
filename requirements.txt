@@ -3,7 +3,7 @@ chardet==3.0.4
 defusedxml==0.5.0
 Django==1.11
 django-allauth==0.34.0
-djangorestframework==3.7.7
+djangorestframework==3.11.2
 idna==2.6
 oauthlib==2.0.6
 pep8==1.7.1
