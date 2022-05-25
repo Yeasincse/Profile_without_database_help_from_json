@@ -10,7 +10,7 @@ pep8==1.7.1
 Pillow==5.0.0
 psycopg2==2.7.3.2
 pyflakes==1.6.0
-PyJWT==1.5.3
+PyJWT==2.4.0
 PySocks==1.6.8
 python-memcached==1.59
 python3-openid==3.1.0
